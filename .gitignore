@@ -1,0 +1,35 @@
+
+# Virtual Environment
+DermaAI/
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables and Secrets
+.env
+.streamlit/secrets.toml
+
+# SCIN Dataset
+data/SCIN/
+data/processed/
+
+# Model Checkpoints
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.onnx
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
